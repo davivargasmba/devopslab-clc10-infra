@@ -10,4 +10,7 @@ terraform {
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
   project = var.project_id
+  credentials = {
+    token                    = "SEU_TOKEN_AQUI"
+  }
 }
