@@ -1,6 +1,7 @@
 variable "project_id" {
-  description = "GCP Project ID"
+  description = "civic-glow-408200"
   type        = string
+  default = "civic-glow-408200"
 }
 
 variable "region" {
