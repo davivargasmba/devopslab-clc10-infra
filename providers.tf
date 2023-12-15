@@ -11,6 +11,6 @@ terraform {
 provider "google" {
   project = var.project_id
   credentials = {
-    token                    = "SEU_TOKEN_AQUI"
+    token                    = "c770e7686685e301844f2348c1da470d38a82ceb"
   }
 }
